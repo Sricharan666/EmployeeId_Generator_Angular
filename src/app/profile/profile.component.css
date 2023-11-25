@@ -1,0 +1,48 @@
+.i-card{
+    width: 900px;
+    box-shadow: 6px 10px #8d8c8d; 
+    /* background-image: linear-gradient(to right, red , yellow); */
+     /* background-image: linear-gradient(to bottom right, rgb(140, 0, 255), yellow); */
+    /* background-image: linear-gradient(to bottom right, rgb(37, 232, 147), rgb(191, 9, 179));  */
+    /* background-image: linear-gradient(to bottom right, rgb(111, 56, 252), rgb(248, 56, 107));  */
+    /* background-image: linear-gradient(to bottom right, rgb(247, 250, 81),rgb(110, 3, 31));  */
+    background-color: rgb(4, 166, 175);
+    /* opacity: 0.3; */
+    /* padding: 30px; */
+    /* box-shadow: 5px 5px solid black; */
+    /* border-radius: 4px; */
+    height: 550px;
+     margin-left: 250px; 
+     color: white;
+     padding-left: 10px;
+     display: flex;
+     color: white;
+
+}
+.profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.profile-back{
+    width: 100%;
+    height: 200vh;
+    padding-top: 30px;
+    /* background-color: rgb(209, 165, 251); */
+ 
+}
+.sub-div{
+    width: 600px;
+    display: flex;
+}
+.sub-div div{
+    width: 300px;
+    padding:  20px 30px 20px 30px;
+}
+.sub-div div label{
+    font-size: 23px;
+    font-family :'Times New Roman', Times, serif
+}

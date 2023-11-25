@@ -1,0 +1,95 @@
+<!-- <table class="table ">
+    <thead>
+        <tr>
+            <th scope="col">Emplyee ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email ID</th>
+            <th scope="col">Mobile No</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor= "let row of employeeData">
+        <td>{{row.id}}</td>
+        <td>{{row.firstName}}</td>
+        <td>{{row.lastName}}</td>
+        <td>{{row.email}}</td>
+        <td>{{row.mobile}}</td>
+        <td>{{row.salary}}</td>
+
+        <td>
+          <img [src]="row.imageurl" alt="User Image" width="100" height="100">
+        </td>
+
+        </tr>
+      </tbody>
+      </table> -->
+      <div class="profile-back">
+      <div *ngFor= "let row of employeeData">
+        <div class="i-card">
+          <div class="first">
+          <div>
+            <img [src]="row.imageurl" alt="User Image" width="100" height="100" class="profile-img">
+          </div>
+        </div>
+        <div class="second">
+          <div class="sub-div">
+          <div >
+            <label for="">Employee ID</label>
+          </div>
+          <div >
+            <label for="">{{row.id}}</label>
+          </div>
+        </div>
+
+        <div>
+          <div class="sub-div">
+            <div>
+            <label for="">firstName</label>
+          </div>
+          <div >
+            <label for="">{{row.firstName}}</label>
+          </div>
+        </div>
+
+        <div class="sub-div">
+          <div>
+            <label for="">lastName</label>
+          </div>
+          <div>
+            <label for="">{{row.lastName}}</label>
+          </div>
+        </div>
+
+        <div class="sub-div">
+          <div >
+            <label for="">Email</label>
+          </div>
+          <div>
+            <label for="">{{row.email}}</label>
+          </div>
+        </div>
+
+        <div class="sub-div">
+          <div>
+            <label for="">mobile</label>
+          </div>
+          <div>
+            <label for="">{{row.mobile}}</label>
+          </div>
+        </div>
+
+        <div class="sub-div">
+          <div>
+            <label for="">salary</label>
+          </div>
+          <div>
+            <label for="">{{row.salary}}</label>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>

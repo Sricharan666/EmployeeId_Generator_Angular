@@ -1,0 +1,57 @@
+<div class="signup">
+<div class="form1">
+
+<form [formGroup]="Formvalue" >
+    <label  class="signup-txt">signup</label>
+    <div class="mb-3 new">
+        <div *ngIf="!selectedImage">
+         <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="">
+        </div>
+        
+      <img [src]="selectedImageurl" *ngIf="selectedImage"  alt="Selected Image">
+    </div>
+    <div class="image-upload">
+      <label for="fileInput" class="image-box" *ngIf="updatedbox">
+        <i class="fas fa-plus"></i>
+      </label>
+      <input type="file" id="fileInput" (change)="onImageSelected($event)" accept="image/*">
+  
+    </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">First Name</label>
+        <input type="text" formControlName="firstname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Last Name</label>
+        <input type="text" formControlName="lastname" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email ID</label>
+          <input type="email" formControlName="email" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+          <input type="text" formControlName="mobile" class="form-control" id="exampleInputPassword1">
+        </div>
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Salary</label>
+          <input type="text" formControlName="salary" class="form-control" id="exampleInputPassword1">
+      </div>
+  
+      <!-- <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Profile Image</label>
+        <input type="file" (change)="onImageSelected($event)" class="form-control" accept="image/*" id="exampleInputPassword1">
+      </div> -->
+  
+  
+   
+      <button type="submit" (click)="postEmployeeDetails()" class="btn btn-primary">Submit</button>
+      <p class="change">Already a member?</p><p class="change1"><a (click)="submit1()">login</a></p>
+      
+     </form>
+    <!-- <form action="">
+      <input type="text">
+      <input type="button" value="click">
+    </form> -->
+</div>
+</div>

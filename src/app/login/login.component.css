@@ -1,0 +1,44 @@
+.login{
+    /* background-color: rgb(224, 255, 185); */
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    display: flex;
+    justify-content: center;
+}
+.form1{
+    width: 450px;
+    box-shadow: 6px 10px #8d8c8d;
+    /* background-image: linear-gradient(to right, red , yellow); */
+     /* background-image: linear-gradient(to bottom right, rgb(140, 0, 255), yellow); */
+    /* background-image: linear-gradient(to bottom right, rgb(37, 232, 147), rgb(191, 9, 179));  */
+    /* background-image: linear-gradient(to bottom right, rgb(111, 56, 252), rgb(248, 56, 107));  */
+    background-image: linear-gradient(to bottom right, rgb(250, 81, 160),rgb(110, 3, 31)); 
+    /* opacity: 0.3; */
+    padding: 30px;
+    box-shadow: 5px 5px solid black;
+    border-radius: 4px;
+    height: 400px;
+     /* margin-left: 550px;  */
+
+
+}
+.change{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgb(214, 210, 210);
+}
+.change1{
+    margin-top: -40px;
+    margin-left: 11pc;
+    color: rgb(27, 18, 108);
+    font-weight: 600;
+    cursor: pointer;
+}
+.signup{
+    margin-left: 85px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,156 @@
+.navbar {
+    /* background-color: rgb(70, 1, 1); */
+    background-image: linear-gradient(to bottom right, rgb(255, 45, 230), rgb(108, 2, 30)); 
+
+    height: 100px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+
+.user {
+    color: white;
+    font-size: 15px;
+
+}
+#navbarDropdownMenuLink {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+#change-color,
+#navbarDropdownMenuLink {
+    color: rgb(253, 253, 254);
+    margin-left: 80px;
+    font-size: 18px;
+}
+.logo {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    height: 320px;
+    /* margin-top : 50px; */
+}
+.f1 {
+    margin-top: 50px;
+    width: 156px;
+    margin-left: 190px;
+    color: white;
+}
+.f1 :hover {
+    color: rgb(220, 4, 151);
+}
+.f2 {
+    margin-top: 50px;
+    margin-left: 160px;
+    color: white;
+}
+.f2 :hover {
+    color: rgb(220, 4, 151);
+}
+.sub {
+    margin-top: 10px;
+    font-weight: 300;
+    color: rgb(219, 219, 219);
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.sub :hover {
+    font-size: 30px;
+}
+.five {
+    color: white;
+    background: #222529;
+    border: 1px solid #6c6c6c;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 10px 14px 9px 12px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.six {
+    font-size: 18px;
+    color: white;
+    background: #222529;
+    border: 1px solid #6c6c6c;
+    border-radius: 50px;
+    padding: 10px 9px 9px 10px;
+    margin-left: 16px;
+}
+.seven {
+    font-size: 18px;
+    color: white;
+    background: #222529;
+    border: 1px solid #6c6c6c;
+    border-radius: 50px;
+    padding: 10px 10px 9px 10px;
+    margin-left: 16px;
+}
+i.five:hover {
+    cursor: pointer;
+    color: white;
+    background: #3b5a9a;
+}
+i.six:hover {
+    color: white;
+    cursor: pointer;
+    background: #1aa9e1;
+}
+i.seven:hover {
+    color: white;
+    cursor: pointer;
+    background: #7c4a3a;
+}
+.icons {
+    margin-left: -208px;
+    margin-top: 172px;
+}
+
+
+
+/* .body-img{
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    margin-top: -2px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/165/275/593/colorful-windows-10-gradient-minimalism-soft-gradient-hd-wallpaper-preview.jpg");
+    background-size: cover;
+} */
+
+/* .navbar-collapse.show + .nav-item{
+    background-color: black; 
+ } */
+
+@media screen and (max-width: 1440px){
+    #change-color{
+     margin-left : 40px;
+     font-size: 15px;
+    }
+   }
+   @media screen and (max-width: 991px){
+    #change-color{
+        margin-left : 0px;
+       }
+    .show{
+        background-color : black;
+      }
+      .nav-item{
+        background-color: black; 
+     }
+     .nav-item:hover{
+        background-color:#d727ae;
+        }
+     .mr-auto {
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+        background-color: black
+    }
+   }
